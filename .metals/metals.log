@@ -1,0 +1,50 @@
+2023.03.07 15:26:55 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1' for client Visual Studio Code 1.76.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/Stanley/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.07 15:26:55 INFO  time: initialize in 0.85s
+2023.03.07 15:26:58 WARN  Build server is not auto-connectable.
+2023.03.07 15:26:58 WARN  no build tool detected in workspace 'C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Mar 07, 2023 3:26:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.03.07 15:26:59 WARN  no build target for: C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\Client.java
+2023.03.07 15:27:00 WARN  Running javac-semanticdb failed for file:///C:/Users/Stanley/Documents/School/Computer%20Science/CS320/Assignment1/Client.java. Output:
+C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\Client.java:18: error: cannot find symbol
+            RouteFinder x = new RouteFinder();
+            ^
+  symbol:   class RouteFinder
+  location: class Client
+C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\Client.java:18: error: cannot find symbol
+            RouteFinder x = new RouteFinder();
+                                ^
+  symbol:   class RouteFinder
+  location: class Client
+C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\Client.java:8: error: semanticdb-javac: unknown flag 'Science\CS320\Assignment1'
+import java.util.*;
+^
+Note: C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\Client.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors
+2023.03.07 15:27:49 WARN  no build target for: C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\IRouteFinder.java
+2023.03.07 15:27:50 WARN  no build target for: C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\RouteFinder.java
+2023.03.07 15:27:50 WARN  Running javac-semanticdb failed for file:///C:/Users/Stanley/Documents/School/Computer%20Science/CS320/Assignment1/IRouteFinder.java. Output:
+C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\IRouteFinder.java:1: error: semanticdb-javac: unknown flag 'Science\CS320\Assignment1'
+import java.util.*;
+^
+1 error
+2023.03.07 15:27:52 WARN  Running javac-semanticdb failed for file:///C:/Users/Stanley/Documents/School/Computer%20Science/CS320/Assignment1/RouteFinder.java. Output:
+C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\RouteFinder.java:20: error: cannot find symbol
+public class RouteFinder implements IRouteFinder {
+                                    ^
+  symbol: class IRouteFinder
+C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\RouteFinder.java:8: error: semanticdb-javac: unknown flag 'Science\CS320\Assignment1'
+import java.util.*;
+^
+Note: C:\Users\Stanley\Documents\School\Computer Science\CS320\Assignment1\RouteFinder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+2023.03.07 15:27:52 INFO  time: code lens generation in 2.98s
+2023.03.07 15:27:52 INFO  time: code lens generation in 1.73s
